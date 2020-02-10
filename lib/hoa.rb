@@ -10,5 +10,5 @@ def add_character(show, name)
   # Should return the array of the 'show' argument
   #BIG Note we can not push values into hashes with .push or <<
   BASE_HOA[show] << name
-  p BASE_HOA
+  p show
 end
