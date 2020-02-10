@@ -1,7 +1,7 @@
 BASE_HOA = {
-  :chipmunks => ["Alvin", "Simon", "Theodore"],
-  :third_earthers => ["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)"],
-  :jetsons => ["George", "Jane", "Judy", "Elroy"]
+  chipmunks: ["Alvin", "Simon", "Theodore"],
+  third_earthers: ["Lion-O", "Cheetara", "Mumm-Ra (the ever-living)"],
+  jetsons: ["George", "Jane", "Judy", "Elroy"]
 }
 
 
@@ -14,6 +14,6 @@ def add_character(show, name)
     BASE_HOA[row_index] << name
     row_index += 1
   end
-  show << BASE_HOA[row_index]
+  show.push(BASE_HOA[row_index])
   p show
 end
