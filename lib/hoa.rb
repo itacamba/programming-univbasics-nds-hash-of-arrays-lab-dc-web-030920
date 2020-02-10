@@ -8,5 +8,12 @@ BASE_HOA = {
 def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
-  BASE_HOA[:chipmunks].push(name)
+  row_index = 0
+  show = []
+  while row_index < BASE_HOA.length do
+    BASE_HOA[row_index] << name
+    row_index += 1
+  end
+  show << BASE_HOA[row_index]
+  p show
 end
