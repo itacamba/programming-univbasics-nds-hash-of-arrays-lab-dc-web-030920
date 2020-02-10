@@ -25,7 +25,7 @@ my_hoa = {
   miercoles: ["Rice", "Veggies"]
 }
 row_index = 0
-show = []
+show = {}
 while row_index < my_hoa.length do
   show << my_hoa[row_index]
   row_index += 1
