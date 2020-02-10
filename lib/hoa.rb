@@ -9,5 +9,5 @@ def add_character(show, name)
   # Write your implementation here
   # Should return the array of the 'show' argument
   #BIG Note we can not push values into hashes with .push or <<
-  p show
+  show.push(name)
 end
