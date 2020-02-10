@@ -17,3 +17,17 @@ def add_character(show, name)
   show.push(BASE_HOA[row_index])
   p show
 end
+
+
+my_hoa = {
+  lunes: ["Salmon","Chicken"],
+  martes: ["Beef", "Pho"],
+  miercoles: ["Rice", "Veggies"]
+}
+row_index = 0
+show = []
+while row_index < my_hoa.length do
+  show << my_hoa[row_index]
+  row_index += 1
+end
+  p show
