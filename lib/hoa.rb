@@ -11,7 +11,7 @@ def add_character(show, name)
   row_index = 0
   show = []
   while row_index < BASE_HOA.length do
-    BASE_HOA[row_index] << name
+    BASE_HOA[row_index].push(name)
     row_index += 1
   end
   show.push(BASE_HOA[row_index])
